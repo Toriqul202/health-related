@@ -11,7 +11,7 @@ const Services = () => {
     },[])
     return (
         <div className="container">
-            <h1 className="my-4 text-center">Our Latest Health Care Services</h1>
+            <h1 className="my-4 mt-5 p-2 text-center">Our Latest <span style={{color:"red"}}>Health Care</span>  Services</h1>
             
             <div className="row gy-5">
             {

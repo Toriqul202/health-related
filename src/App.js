@@ -13,6 +13,8 @@ import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
 import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
+import Login from './components/Login/Login';
+import Detail from './components/Detail/Detail';
 
 
 
@@ -31,8 +33,14 @@ function App() {
           <Route path="/home">
            <Home></Home>
           </Route>
-          <Route path="/services">
+          <Route exact path="/services">
             <Services></Services>
+          </Route>
+          <Route exact path="/services/:detail">
+           <Detail></Detail>
+          </Route>
+          <Route path="/login">
+              <Login></Login>
           </Route>
           <Route path="/contact">
             <Contact></Contact>

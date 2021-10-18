@@ -12,12 +12,12 @@ const Banner = () => {
     <img
       className="d-block w-100"
       src={banner1}
-      
+      height="600px"
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h3>Care Unlimited</h3>
+      <p>We Provide Best Relaiable Care</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -25,6 +25,7 @@ const Banner = () => {
       className="d-block w-100"
       src={banner2}
       alt="Second slide"
+      height="600px"
     />
 
     <Carousel.Caption>
@@ -37,6 +38,7 @@ const Banner = () => {
       className="d-block w-100"
       src={banner3}
       alt="Third slide"
+      height="600px"
     />
 
     <Carousel.Caption>

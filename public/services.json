@@ -30,21 +30,21 @@
     "img": "https://www.medicoverhospitals.in/wp-content/uploads/2020/11/Diabetes.jpg",
     "key": "BDE7s6J",
     "type":"Sample"
+    
     },
     {
     "id": 5,
     "name": "Eye care",
     "description": "Ophthalmologists and optometrists both provide routine eye exams. Ophthalmologists are physicians (MDs) who have specialized in diagnosing and medically or surgically treating diseases of the eyes and visual system.",
     "img": "https://cdn.store-assets.com/s/683904/f/6456051.jpeg",
-    "key": "BDE716J",
-    "type":"Sample"
+    "key": "BDE716J"
+    
     },
     {
     "id": 6,
     "name": "Dr. Atikul Islam",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUl_rNgEgHVtHxjxN9GQ7H457SfgYyZK0z8OYX1Vwk_57f8OzEHnOfEef9Y-UHncvbj2s&usqp=CAU",
-    "key": "BDE726J",
-    "type":"Sample"
+    "key": "BDE726J"
     },
     {
     "id": 7,
