@@ -6,7 +6,10 @@ const Home = () => {
     return (
         <>
         <Banner></Banner>
+        
         <SampleServices></SampleServices>
+        
+       
             
         </>
     );

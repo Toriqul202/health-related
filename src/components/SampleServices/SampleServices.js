@@ -10,13 +10,16 @@ const Services = () => {
         .then(data=>setServices(data))
     },[])
     return (
-        <div className="row">
+        <div className="container">
+            <h1 className="my-4 text-center">Our Latest Health Care Services</h1>
             
-              {
-                services.filter(service=>service.type=="Sample").map(service=><SampleService
+            <div className="row gy-5">
+            {
+                services.filter(service=>service.type==="Sample").map(service=><SampleService
                    key={service.id} service={service}
                  ></SampleService>)
               }
+            </div>
            
         </div>
     );
