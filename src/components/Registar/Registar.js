@@ -1,11 +1,10 @@
-
 import React from 'react';
-import { useHistory, useLocation } from 'react-router';
 import { Link } from 'react-router-dom';
+import { useHistory, useLocation } from 'react-router';
 import useAuth from '../../Hooks/useAuth';
 
-const Login = () => {
-    const {setIsLoading,error,handlePass,handleSignIn,googleSignIn, gitHandle,handleEmailChange}=useAuth()
+const Registar = () => {
+    const {handleName,handleEmailChange,handleReg,handlePass,setIsLoading,gitHandle,error,googleSignIn}=useAuth()
     const location=useLocation()
             
             const history=useHistory()
@@ -33,14 +32,18 @@ const Login = () => {
     }
     return (
         <>
-           <div className="row p-3">
-               <div className="col-lg-4">
+          <div className="row">
+              <div className="col-lg-4">
 
-               </div>
-               <div className="col-lg-4 p-3 bg-warning">
-               <h2 className="text-center">Please Login</h2>
-               <form onSubmit={handleSignIn}>
-              
+              </div>
+              <div className="col-lg-4 bg-warning p-3">
+              <h2 className="text-center">Please Registar</h2>
+               <form onSubmit={handleReg}>
+               <div className="form-group">
+                            <label htmlFor="exampleName">Your Name</label>
+                            <input type="text" onBlur={ handleName} className="form-control" id="exampleName"  placeholder="Your Name"/>
+                            
+                        </div>
                         <div className="form-group">
                             <label htmlFor="exampleInputEmail1">Email address</label>
                             <input type="email" onBlur={ handleEmailChange} className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
@@ -52,35 +55,29 @@ const Login = () => {
                         </div>
                         
                         
-                      <button type="submit " className="btn btn-primary btn-lg btn-block">Submit</button>
-                      <br/>
-                      <br/>
-                      <h4>
-                          <Link to="/registar" className="text-danger " style={{textDecoration:'none'}}>
-                              New User
-                         </Link>
-                    </h4>
+                      <button type="submit" className="btn btn-primary btb-lg btn-block">Submit</button>
+                     <h4>
+                       <Link to="/login" className="text-danger" style={{textDecoration:'none'}} >Already Account?</Link>
+                    </h4> 
               </form>
               <div className="text-center ">
             <h4>-------------- or---------------</h4> 
-              <button className="btn btn-dark btn-lg btn-block  text-center" onClick={gitHandle}>Login With Github</button>
+              <button className="btn btn-dark btn-lg btn-block  text-center" onClick={handleGit}>Signup With Github</button>
               <br/>
               <br/>
-                <button className="btn btn-danger btn-lg btn-block  text-center" onClick={handleGoogleLogin}>Login With Google</button>
+                <button className="btn btn-danger btn-lg btn-block  text-center" onClick={handleGoogleLogin}>Signup With Google</button>
               </div>
              
               <h3>{error}</h3>
-               </div>
-               <div className="col-lg-4">
+              </div>
+              <div className="col-lg-4">
 
-               </div>
-               
-               
+              </div>
               
-           </div>
-           
+              
+         </div>  
         </>
     );
 };
 
-export default Login;
+export default Registar;

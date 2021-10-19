@@ -30,9 +30,7 @@ const Footer = () => {
               <li className="list-unstyled">
                 <Link to="/contact">Contact</Link>
               </li>
-              <li className="list-unstyled">
-                <Link to="/doctors">Doctor List</Link>
-              </li>
+            
              
             </ul>
           </MDBCol>

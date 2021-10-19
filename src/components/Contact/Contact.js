@@ -1,11 +1,11 @@
-import Button from '@restart/ui/esm/Button';
+
 import React from 'react';
 
 const Contact = () => {
     return (
         <div>
              <h2 className="text-center my-3">Get Us Through Contact</h2>
-            <div className=" ">
+            <div className="">
            
             <div className="container">
                 <div className="row">

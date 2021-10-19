@@ -37,25 +37,34 @@
     "name": "Eye care",
     "description": "Ophthalmologists and optometrists both provide routine eye exams. Ophthalmologists are physicians (MDs) who have specialized in diagnosing and medically or surgically treating diseases of the eyes and visual system.",
     "img": "https://cdn.store-assets.com/s/683904/f/6456051.jpeg",
-    "key": "BDE716J"
+    "key": "BDE716J",
+    "type":"Sample"
+    
     
     },
     {
     "id": 6,
-    "name": "Dr. Atikul Islam",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUl_rNgEgHVtHxjxN9GQ7H457SfgYyZK0z8OYX1Vwk_57f8OzEHnOfEef9Y-UHncvbj2s&usqp=CAU",
-    "key": "BDE726J"
+    "name": "Medical Treatment",
+    "img": "https://images.pexels.com/photos/6129052/pexels-photo-6129052.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "key": "BDE726J",
+    "description":"Full service, nationwide staffing agency providing personalized solutions tailored to you. We get to know you so we can make sure every detail is taken care of the way you want. Founded in 1979. Support at Every Step. Competitive Compensation. Great Job Availability. Earn Extra Income.'"
+    ,
+    "type":"Sample"
     },
     {
     "id": 7,
-    "name": "Dr. AM R Khan",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUl_rNgEgHVtHxjxN9GQ7H457SfgYyZK0z8OYX1Vwk_57f8OzEHnOfEef9Y-UHncvbj2s&usqp=CAU",
-    "key": "BDE7r6J"
+    "name": "Physio Therapy",
+    "img": "https://soleyes.es/wp-content/uploads/2020/04/physiotherapy-sol-eyes-fuengirola-768x512.jpg",
+    "key": "BDE7r6J",
+    "description":"Best Physiotherapy Clinic in Gulshan, Dhaka - Request a same day consultation appointment. We get results even with the toughest cases. Let's help you bring back ",
+    "type":"Sample"
     },
     {
     "id": 8,
-    "name": "Dr. Atikul Islam",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUl_rNgEgHVtHxjxN9GQ7H457SfgYyZK0z8OYX1Vwk_57f8OzEHnOfEef9Y-UHncvbj2s&usqp=CAU",
-    "key": "BDE76Jk"
+    "name": "Skin Care",
+    "img": "https://www.skincenterofsouthmiami.com/wp-content/uploads/2018/06/Skin-Center-of-South-Miami-Facials-and-Skin-Care.jpg",
+    "type":"Sample",
+    "description":"Search secure for Health Insurance In California. Search with Visymo.com. Unlimited Access. 100% Secure. Always Facts. Privacy Friendly. The Best Resources. Results & Answers. Types: Best Results, Explore Now, New Sources",
+    "key":"BDE7X6J"
     }
     ]
