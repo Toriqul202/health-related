@@ -63,7 +63,7 @@ const Login = () => {
               </form>
               <div className="text-center ">
             <h4>-------------- or---------------</h4> 
-              <button className="btn btn-dark btn-lg btn-block  text-center" onClick={gitHandle}>Login With Github</button>
+              <button className="btn btn-dark btn-lg btn-block  text-center" onClick={handleGit}>Login With Github</button>
               <br/>
               <br/>
                 <button className="btn btn-danger btn-lg btn-block  text-center" onClick={handleGoogleLogin}>Login With Google</button>
