@@ -8,7 +8,7 @@ const Header = () => {
   const {user,logOut}=useAuth()
     return (
         <>
-              <Navbar collapseOnSelect expand="lg" bg="light" variant="white" sticky="top">
+              <Navbar collapseOnSelect expand="lg" bg="dark" variant="white" sticky="top">
     <Container>
     <Navbar.Brand href="#home"><h1 className="text-success">I Health Care</h1></Navbar.Brand>
     <Navbar.Toggle />
