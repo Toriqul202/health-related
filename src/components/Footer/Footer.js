@@ -10,7 +10,7 @@ const Footer = () => {
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow>
           <MDBCol md="4"className="p-5">
-            <h5 className="title">Footer Content</h5>
+            <h5 className="title">About Us</h5>
             <p>
             We manufacture and market a wide range of branded generic medicines covering almost all therapeutic classes such as antibiotics, anti-ulcerents, Cardiovascular, NSAIDs, anti-diabetics, antipsychotic, antiviral, vitamins and minerals etc. offering different dosage forms like Solid Tablets, Capsules, Small volume Parenteral (SVPs), Dry powder for Suspensions, Cream and Ointments, Metered-dose Inhalers (MDIs), Ophthalmic products, and Prefilled Syringe for Biogenerics etc
             </p>

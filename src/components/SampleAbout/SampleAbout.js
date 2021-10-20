@@ -7,7 +7,7 @@ const SampleAbout = () => {
            <div className="container p-3 mt-5">
                <div className="row">
                    <div className="col-lg-6">
-                       <img src="http://html.thememascot.net/2021/health/medikx/medikx-html/images/about/5.png" alt="" />
+                       <img src="http://html.thememascot.net/2021/health/medikx/medikx-html/images/about/5.png" className="img-fluid" alt="" />
                    </div>
                    <div className="col-lg-6 p-5">
                        <p style={{color:'red'}}>About I Health Care</p>           

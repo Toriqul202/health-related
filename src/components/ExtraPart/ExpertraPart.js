@@ -1,12 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import extra from '../../images/extra.png'
 
 const ExpertPart = () => {
     return (
         <div className="container bg-dark p-5 pb-0 mt-5">
         <div className="row">
             <div className="col-lg-6">
-                <img src="http://html.kodesolution.live/f/drpoint/2.1/demo/images/about/3.png" alt="" />
+                <img src={extra} alt="" className="img-fluid"/>
             </div>
             <div className="col-lg-6 p-5 text-white">
                 <p style={{color:'red'}}>I Health Care </p>           
